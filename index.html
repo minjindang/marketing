@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<html ng-app="myApp" lang="en">
+<!-- BEGIN HEAD -->
+<head>
+ <meta charset="utf-8" />
+ <title>赤霄行銷管理系統</title>
+   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+   <script src="js/jquery-latest.js"></script>
+   <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+   <link href="assets/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" />
+   <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+   <link href="css/style.css" rel="stylesheet" />
+   <link href="css/style-responsive.css" rel="stylesheet" />
+   <link href="css/style-default.css" rel="stylesheet" id="style_color" />
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body class="lock">
+    <!-- START -->
+    <script language="javascript">
+        function getCookie(cname) {
+            var name = cname + "=";
+            var ca = document.cookie.split(';');
+            for(var i=0; i<ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0)==' ') c = c.substring(1);
+                if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
+            }
+            return "";
+        }
+        
+        function getCookieId() {
+            var ca = document.cookie.split(';');
+            var id = ca[0].split('=');
+            return id[1];
+        }
+        
+        //cookie判斷是否已註冊的使用者
+        function checklogin(){
+            if(document.getElementById('rememberMe').checked){
+                //=======================測試使用Cookie當作Remember Me 開始
+                //console.log("Cookie All:"+document.cookie);
+                console.log("Cookie Username:"+getCookie("username"));
+                console.log("Cookie Id:"+getCookieId());
+                //=======================測試使用Cookie當作Remember Me 結束
+                //檢查cookieid
+                /*
+                    $.ajax({
+                        url:'checkcookie.php',
+                        data:"user_name="+user_name+"&cookieid="+getCookieId(),
+                        type : 'POST',
+                     
+                        success:function(msg){
+            	           if(msg=="success"){}else{}
+                           },
+                           error:function(xhr){
+                               alert('判斷Coodid發生錯誤');
+                           },
+                           complete:function(){}
+                        });
+                    };
+                */
+                //==================================================================
+                //填入password
+            }
+        }
+        
+        function userlogin(){
+            var user_name = $('#user_name').val();
+            var user_password = $('#user_password').val();
+            var cookieid = getCookieId();
+
+            if(user_name=="" && user_password==""){
+                $('#error_msg').text('Please enter your ID & password');
+                return false;
+            }
+            if(user_name==""){
+                $('#error_msg').text('Please enter your ID');
+                $('#user_name').focus();
+                return false;
+            }else if(user_password==""){
+                $('#error_msg').text('Please enter your password');
+                $('#user_password').focus();
+                return false;
+            }
+
+            $.ajax({
+               url:'login_chk.php',
+               data:"user_name="+user_name+"&user_password="+user_password+"&cookieid="+cookieid,
+               type : 'POST',
+               success:function(msg){
+    	       if(msg=="success"){
+    		        location.href= "datepicker.html";
+                }else{    
+    	               $('#error_msg').html('帳號密碼不對喔!!!');
+    	        }
+                    },
+                    error:function(xhr){
+                        alert('Ajax request 發生錯誤');
+                    },
+                    complete:function(){}
+                });
+            };
+            
+        	$(document).keypress(function(e) {
+        	    if(e.which == 13) {
+        	        userlogin();
+        	    }
+            });
+/*
+    function getCookie(c_name) {
+        var c_value = document.cookie;
+        var c_start = c_value.indexOf(" " + c_name + "=");
+        if (c_start == -1) {
+            c_start = c_value.indexOf(c_name + "=");
+        }
+        if (c_start == -1) {
+          c_value = null;
+        } else {
+          c_start = c_value.indexOf("=", c_start) + 1;
+          var c_end = c_value.indexOf(";", c_start);
+          if (c_end == -1) {
+            c_end = c_value.length;
+          }
+          c_value = unescape(c_value.substring(c_start,c_end));
+        }
+        return c_value;
+    }
+
+    function setCookie(c_name,value,exdays)
+    {
+        var exdate=new Date();
+        exdate.setDate(exdate.getDate() + exdays);
+        var c_value=escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString());
+        document.cookie=c_name + "=" + c_value;
+    }
+
+    function checkCookie()
+    {
+        var username=getCookie("username");
+        if (username!=null && username!="") {
+          alert("Welcome again " + username);
+        }
+        else {
+          username=prompt("Please enter your username:","");
+          if (username!=null && username!="") {
+            setCookie("username",username,365);
+          }
+        }
+    }
+*/
+    
+    </script>
+    <!-- END -->
+    <div class="lock-header">
+        <!-- BEGIN LOGO -->
+        <a class="center" id="logo" href="index.html">
+            <img class="center" alt="logo" src="img/logo.png">
+        </a>
+        <!-- END LOGO -->
+    </div>
+
+    <div ng-controller="LoginCtrl" class="login-wrap" >
+        <div class="metro single-size red">
+            <div class="locked">
+                <i class="icon-lock"></i>
+                <span>Login</span>
+            </div>
+        </div>
+        <div class="metro double-size green">
+            <div class="input-append lock-input">
+                <input type="text" id="user_name" placeholder="Username">
+            </div>
+        </div>
+        <div class="metro double-size yellow">
+            <div class="input-append lock-input">
+                <input type="password" id="user_password" placeholder="Password" autocomplete="off">
+            </div>
+        </div>
+        <div class="metro single-size terques login">
+            <button type="submit" class="btn login-btn" onclick="userlogin();" ng-click="submit()">
+                Login
+                <i class=" icon-long-arrow-right"></i>
+            </button>
+        </div>
+        
+        <div class="login-footer">
+            <div class="remember-hint pull-left">
+                <input type="checkbox" id="rememberMe" ng-model="rememberMe" onclick="checklogin();"> Remember Me
+            </div>
+            
+            <div class="forgot-hint pull-right">
+                <a id="forget-password" class="" href="javascript:;">Forgot Password?</a>
+            </div>
+            <div id="error_msg"></div>
+        </div>
+    </div>
+    <script src="js/angular.js"></script>
+    <script src="app/index.js"></script>
+</body>
+<!-- END BODY -->
+</html>

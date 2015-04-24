@@ -1,0 +1,14 @@
+Installing MySQL
+
+MySQL 5.5 database added.  Please make note of these credentials:
+
+       Root User: willy741026-marketing-1349478
+   Database Name: c9
+   
+啟動MYSQL:mysql-ctl start   
+進入MYSQL:mysql-ctl cli
+
+
+Connecting PHP to MySQL
+https://docs.c9.io/v1.0/docs/connecting-php-to-mysql
+
