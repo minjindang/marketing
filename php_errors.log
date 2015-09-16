@@ -2996,3 +2996,273 @@
 [23-Apr-2015 08:02:59 UTC] PHP Notice:  Undefined index: name in /home/ubuntu/workspace/ajax/fbclick.php on line 4
 [23-Apr-2015 08:02:59 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/ubuntu/workspace/ajax/fbclick.php on line 12
 [23-Apr-2015 08:02:59 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/ubuntu/workspace/ajax/fbclick.php on line 12
+[02-Sep-2015 02:57:04 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/ubuntu/workspace/includes/config.php on line 7
+[02-Sep-2015 02:57:05 UTC] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/ubuntu/workspace/includes/config.php on line 9
+[02-Sep-2015 02:57:05 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/includes/config.php on line 9
+[02-Sep-2015 02:57:05 UTC] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/ubuntu/workspace/includes/config.php on line 10
+[02-Sep-2015 02:57:05 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/includes/config.php on line 10
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: startdate in /home/ubuntu/workspace/ajax/advsearch.php on line 4
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: enddate in /home/ubuntu/workspace/ajax/advsearch.php on line 10
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 16
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 43
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 70
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 97
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 124
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 151
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 178
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 205
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 232
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 259
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 286
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 313
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 340
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 367
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 394
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 421
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 448
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 475
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 502
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 529
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 556
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 583
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 610
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 637
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 664
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 691
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 718
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 745
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 772
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 799
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 826
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 853
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 880
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 907
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 934
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 961
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 988
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1015
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1042
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1069
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1096
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1123
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1150
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1177
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1204
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1231
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1258
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1285
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1312
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1339
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1366
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1393
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1420
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1447
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1474
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1501
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1528
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1555
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1582
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1609
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1636
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1663
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1690
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1717
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1744
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1771
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1798
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1825
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1852
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1879
+[02-Sep-2015 02:57:05 UTC] PHP Notice:  Undefined variable: query in /home/ubuntu/workspace/ajax/advsearch.php on line 1911
+[02-Sep-2015 02:57:05 UTC] PHP Warning:  mysqli::query(): Empty query in /home/ubuntu/workspace/ajax/advsearch.php on line 1911
+[02-Sep-2015 02:57:05 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/ubuntu/workspace/ajax/advsearch.php on line 1911
+[02-Sep-2015 02:57:15 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/ubuntu/workspace/includes/config.php on line 7
+[02-Sep-2015 02:57:15 UTC] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/ubuntu/workspace/includes/config.php on line 9
+[02-Sep-2015 02:57:15 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/includes/config.php on line 9
+[02-Sep-2015 02:57:15 UTC] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/ubuntu/workspace/includes/config.php on line 10
+[02-Sep-2015 02:57:15 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/includes/config.php on line 10
+[02-Sep-2015 02:57:15 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/ubuntu/workspace/ajax/todayinternet.php on line 6
+[02-Sep-2015 02:57:15 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/ubuntu/workspace/ajax/todayinternet.php on line 6
+[02-Sep-2015 02:57:17 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/ubuntu/workspace/includes/config.php on line 7
+[02-Sep-2015 02:57:17 UTC] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/ubuntu/workspace/includes/config.php on line 9
+[02-Sep-2015 02:57:17 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/includes/config.php on line 9
+[02-Sep-2015 02:57:17 UTC] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/ubuntu/workspace/includes/config.php on line 10
+[02-Sep-2015 02:57:17 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/includes/config.php on line 10
+[02-Sep-2015 02:57:17 UTC] PHP Notice:  Undefined index: name in /home/ubuntu/workspace/ajax/googleclick.php on line 4
+[02-Sep-2015 02:57:17 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/ubuntu/workspace/ajax/googleclick.php on line 12
+[02-Sep-2015 02:57:18 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/ubuntu/workspace/ajax/googleclick.php on line 12
+[04-Sep-2015 02:58:26 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/ubuntu/workspace/includes/config.php on line 7
+[04-Sep-2015 02:58:26 UTC] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/ubuntu/workspace/includes/config.php on line 9
+[04-Sep-2015 02:58:26 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/includes/config.php on line 9
+[04-Sep-2015 02:58:26 UTC] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/ubuntu/workspace/includes/config.php on line 10
+[04-Sep-2015 02:58:26 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/includes/config.php on line 10
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: startdate in /home/ubuntu/workspace/ajax/advsearch.php on line 4
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: enddate in /home/ubuntu/workspace/ajax/advsearch.php on line 10
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 16
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 43
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 70
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 97
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 124
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 151
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 178
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 205
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 232
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 259
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 286
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 313
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 340
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 367
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 394
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 421
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 448
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 475
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 502
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 529
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 556
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 583
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 610
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 637
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 664
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 691
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 718
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 745
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 772
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 799
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 826
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 853
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 880
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 907
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 934
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 961
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 988
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1015
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1042
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1069
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1096
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1123
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1150
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1177
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1204
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1231
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1258
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1285
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1312
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1339
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1366
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1393
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1420
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1447
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1474
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1501
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1528
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1555
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1582
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1609
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1636
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1663
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1690
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1717
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1744
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1771
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1798
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1825
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1852
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1879
+[04-Sep-2015 02:58:26 UTC] PHP Notice:  Undefined variable: query in /home/ubuntu/workspace/ajax/advsearch.php on line 1911
+[04-Sep-2015 02:58:26 UTC] PHP Warning:  mysqli::query(): Empty query in /home/ubuntu/workspace/ajax/advsearch.php on line 1911
+[04-Sep-2015 02:58:26 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/ubuntu/workspace/ajax/advsearch.php on line 1911
+[04-Sep-2015 02:58:51 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/ubuntu/workspace/includes/config.php on line 7
+[04-Sep-2015 02:58:51 UTC] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/ubuntu/workspace/includes/config.php on line 9
+[04-Sep-2015 02:58:51 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/includes/config.php on line 9
+[04-Sep-2015 02:58:51 UTC] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/ubuntu/workspace/includes/config.php on line 10
+[04-Sep-2015 02:58:51 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/includes/config.php on line 10
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: startdate in /home/ubuntu/workspace/ajax/advsearch.php on line 4
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: enddate in /home/ubuntu/workspace/ajax/advsearch.php on line 10
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 16
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 43
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 70
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 97
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 124
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 151
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 178
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 205
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 232
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 259
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 286
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 313
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 340
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 367
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 394
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 421
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 448
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 475
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 502
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 529
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 556
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 583
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 610
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 637
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 664
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 691
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 718
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 745
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 772
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 799
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 826
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 853
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 880
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 907
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 934
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 961
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 988
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1015
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1042
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1069
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1096
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1123
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1150
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1177
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1204
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1231
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1258
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1285
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1312
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1339
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1366
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1393
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1420
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1447
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1474
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1501
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1528
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1555
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1582
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1609
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1636
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1663
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1690
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1717
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1744
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1771
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1798
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1825
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1852
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined index: game in /home/ubuntu/workspace/ajax/advsearch.php on line 1879
+[04-Sep-2015 02:58:51 UTC] PHP Notice:  Undefined variable: query in /home/ubuntu/workspace/ajax/advsearch.php on line 1911
+[04-Sep-2015 02:58:51 UTC] PHP Warning:  mysqli::query(): Empty query in /home/ubuntu/workspace/ajax/advsearch.php on line 1911
+[04-Sep-2015 02:58:51 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/ubuntu/workspace/ajax/advsearch.php on line 1911
+[04-Sep-2015 02:59:37 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/ubuntu/workspace/includes/config.php on line 7
+[04-Sep-2015 02:59:37 UTC] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/ubuntu/workspace/includes/config.php on line 9
+[04-Sep-2015 02:59:37 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/includes/config.php on line 9
+[04-Sep-2015 02:59:37 UTC] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/ubuntu/workspace/includes/config.php on line 10
+[04-Sep-2015 02:59:37 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/includes/config.php on line 10
+[04-Sep-2015 02:59:37 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/ubuntu/workspace/ajax/todayinternet.php on line 6
+[04-Sep-2015 02:59:37 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/ubuntu/workspace/ajax/todayinternet.php on line 6
+[04-Sep-2015 03:00:55 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/ubuntu/workspace/includes/config.php on line 7
+[04-Sep-2015 03:00:55 UTC] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/ubuntu/workspace/includes/config.php on line 9
+[04-Sep-2015 03:00:55 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/includes/config.php on line 9
+[04-Sep-2015 03:00:55 UTC] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /home/ubuntu/workspace/includes/config.php on line 10
+[04-Sep-2015 03:00:55 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/includes/config.php on line 10
+[04-Sep-2015 03:00:55 UTC] PHP Notice:  Undefined index: name in /home/ubuntu/workspace/ajax/fbclick.php on line 4
+[04-Sep-2015 03:00:55 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/ubuntu/workspace/ajax/fbclick.php on line 12
+[04-Sep-2015 03:00:55 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/ubuntu/workspace/ajax/fbclick.php on line 12
