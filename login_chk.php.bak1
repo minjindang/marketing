@@ -1,0 +1,38 @@
+<?php
+
+define('DB_SERVER', 'willy741026-marketing-1349478');
+define('DB_USERNAME', 'willy741026');
+define('DB_PASSWORD', '');
+define('DB_DATABASE', 'marketing');
+$db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
+
+// $userid = mysql_real_escape_string($_POST['user_name']); 
+// $password = mysql_real_escape_string($_POST['user_password']); 
+
+// $sql = 'SELECT * FROM user WHERE userid="'.$userid.'" and password="'.$password.'";';
+
+$sql = 'SELECT * FROM user WHERE userid="admin" and password="admin";';
+
+$result=mysqli_query($db,$sql);
+
+
+
+
+$row=mysqli_fetch_array($result,MYSQLI_ASSOC);
+$active=$row['active'];
+$count=mysqli_num_rows($result);
+
+
+echo $count;
+    
+if($count==1){
+    echo 'success';
+}else{
+    // echo 'no data';
+    //  echo $userid;
+    //  echo $password;
+    //  echo $cookieid;
+}
+
+
+?>

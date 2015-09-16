@@ -14,18 +14,19 @@ $userid = $_POST["user_name"];
 $password = $_POST["user_password"];
 $cookieid = $_POST["cookieid"];
 
-$sql = 'SELECT * FROM user WHERE userid = "'.$userid.'" and password="'.$password.'";';
+$sql = 'SELECT * FROM user WHERE userid="'.$userid.'" and password="'.$password.'";';
+
 $result = mysql_query($sql);
-$row = mysql_fetch_assoc($result);
-$record_count = mysql_num_rows($result); 
-if($record_count==1){
+
+$record_count = mysql_num_rows($result);
+
+if($record_count==0){
     echo 'success';
 }else{
     echo 'no data';
-    //echo $userid;
-    //echo $password;
-    //echo $cookieid;
+    //  echo $userid;
+    //  echo $password;
+    //  echo $cookieid;
 }
-
 
 ?>
